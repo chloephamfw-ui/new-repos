@@ -1,0 +1,1 @@
+- name: Build and push Docker image; uses: docker/build-push-action@v5; with: { context: <path>, push: true, tags: ghcr.io/yourusername/yourimage:latest }
