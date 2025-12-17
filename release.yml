@@ -3,18 +3,18 @@ name: Auto-generate release notes
 on:
   push:
     tags:
-      - "v*"
+      - "v0.1"
 
 permissions:
   contents: write
 
 jobs:
   generate-release-notes:
-    runs-on: ubuntu-latest
+    runs-on: new-repos
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v0.1
         with:
           fetch-depth: 0
 
