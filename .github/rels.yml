@@ -1,0 +1,13 @@
+# .github/release.yml
+
+changelog:
+  categories:
+    - title: 🏕 Features
+      labels:
+        - 'bug'
+      exclude:
+        labels:
+          - question
+    - title: 👒 Dependencies
+      labels:
+        - help wanted 
